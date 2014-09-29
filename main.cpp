@@ -30,7 +30,7 @@
  *
  * I hope you find it helpful. I tried to document it as much as possible.
  * 
- * Distributed undet The MIT License (MIT)
+ * Distributed under The MIT License (MIT)
  *
  * Copyright (c) 2014 Itay Grudev <itay@grudev.com>
  *
