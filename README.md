@@ -3,6 +3,9 @@ Monte Carlo Pi
 
 A Simple Multithreaded **Pi** estimation based on the **Monte Carlo** method written in *C++*.
 
+![Example results](/examples/Monte%20Carlo%20Pi%20Accuracy.png?raw=true)  
+*Example generated on a x64 Intel running Mac OS X with pseudo-random uniform real distribution.*
+
 Requirements
 ------------
  * C++ 11
