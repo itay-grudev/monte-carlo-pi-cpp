@@ -16,7 +16,7 @@
  *    ./main
  *
  * Usage:
- *    Just run the program and after pass any STDIN to terminate.
+ *    Just run the program and after that pass any STDIN to terminate.
  *    (Press any key if input is from terminal)
  *
  * Outputing CSV data to file:
@@ -99,7 +99,7 @@ std::list <deviation> deviation;
 void pi_count(int);
 
 // This function performs an analysis
-// and accuracy estimate  at a given point in time
+// and accuracy estimate	at a given point in time
 void analysis();
 
 int main()
@@ -186,7 +186,7 @@ void pi_count(int n)
 		//
 		// Note that a long double is being used for maximum accuracy
 		if(sqrtl(x0 * x0 + y0 * y0) <= 1)
-		  ++count[n]; // Increment circle point counter for this specific thread
+			++count[n]; // Increment circle point counter for this specific thread
 		++total[n]; // keep track of total generated points
 
 		// The first thread also has the function to run the analysys function
@@ -204,7 +204,7 @@ void analysis()
 	for(int i = 1; i < supported_threads; ++i)
 	{
 		// Sum the points
-		count_in 	+= count[i];
+		count_in	+= count[i];
 		count_total += total[i];
 	}
 	// Make an estimate of the value of Pi, based on the current data
